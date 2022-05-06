@@ -33,7 +33,7 @@ export default class BottomTabNavigator extends Component {
                   name={iconName}
                   size={size}
                   color={color}
-                  size={fontSize}
+                 
                 />
               );
             }
@@ -44,7 +44,7 @@ export default class BottomTabNavigator extends Component {
             style: {
               height: 100,
               borderTopWidth: 0,
-              backgroundColor: "#F88379"
+              backgroundColor: "#F88379",
               fontSize:("10")
             },
             labelStyle: {
